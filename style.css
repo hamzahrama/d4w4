@@ -1,0 +1,163 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background: #eeeeee;
+    color: #333;
+    line-height: 1.5;
+}
+
+.header {
+    background: radial-gradient(rgba(250, 245, 244, 0.991),rgb(69, 0, 244));
+    color: rgb(1, 1, 1);
+    text-align: center;
+    padding: 35px;
+}
+
+section {
+    width: 90%;
+    max-width: 1000px;
+    margin: 40px auto;
+    padding: 20px;
+    background: #ffffff;
+    border-radius: 8px;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    -ms-border-radius: 8px;
+    -o-border-radius: 8px;
+}
+
+.kartu-produk {
+    width: 300px;
+    background: #ce29efd7;
+    border: 2px solid rgb(137, 68, 221);
+    border-radius: 8px;
+    position: relative;
+    overflow: hidden;
+}
+
+.kartu-produk img {
+    width: 100%;
+    display: block;
+}
+
+.kartu-produk h3 {
+    padding: 5px;
+}
+
+.harga-produk {
+    padding: 0 15px 20px;
+}
+.badge-sale{
+
+    position:absolute;
+    top:10px;
+    right:10px;
+    background:#6700f7;
+    color:white;
+    padding:8px 12px;
+    border-radius:5px;
+    font-weight:bold;
+}
+
+.section-produk h2 {
+    padding: 0 0 15px 10px;
+}
+
+.wadah-tumpukan{
+
+    position:relative;
+    width:320px;
+    height:220px;
+    background:#e3f2fd;
+    border:2px dashed #1565c0;
+    margin:30px 0;
+}
+
+.kotak-merah{
+
+    width:140px;
+    height:140px;
+    background:#f44336;
+    position:absolute;
+    top:0;
+    left:0;
+    z-index:1;
+}
+
+.kotak-hijau{
+
+    width:140px;
+    height:140px;
+    background:#4caf50;
+    position:absolute;
+    top:40px;
+    left:40px;
+    z-index:2;
+}
+
+.kotak-biru{
+
+    width:140px;
+    height:140px;
+    background:#2196f3;
+    position:absolute;
+    top:80px;
+    left:80px;
+    z-index:3;
+}
+
+/* Overflow */
+
+.kotak-overflow{
+
+    width:350px;
+    height:150px;
+    background:#fff3cd;
+    border:2px solid #ff9800;
+    padding:15px;
+    overflow:auto;
+}
+
+/* Konten Panjang */
+
+.konten-scroll{
+
+    background:#f3e5f5;
+}
+
+.konten-scroll p{
+
+    margin-bottom:20px;
+}
+
+/* ===================== */
+/* Floating Button */
+/* ===================== */
+
+.tombol-chat-admin{
+
+    position:fixed;
+    right:20px;
+    bottom:20px;
+
+    background:#25d366;
+    color:white;
+
+    text-decoration:none;
+    padding:15px 20px;
+    border-radius:30px;
+
+    font-weight:bold;
+
+    box-shadow:0 4px 10px rgba(0,0,0,.3);
+}
+
+.tombol-chat-admin:hover{
+
+    background:#128c7e;
+}
